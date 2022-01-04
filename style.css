@@ -1,0 +1,112 @@
+html {
+    background-image: url("./img/background2.jpg");
+    background-size: cover;
+    background-color:beige;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+main {
+    margin: 0;
+    padding: 0px 80px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+    text-shadow: 0.8px 0.8px 5px goldenrod;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.sub-title {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#tribute-info h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    /*background-color: rgba(67, 148, 148, 0.192);*/
+    background: rgb(234,199,1);
+    background: linear-gradient(90deg, rgba(234,199,1,0.10) 0%, rgba(14,183,221,0.10) 100%);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    height: auto;
+    align-self: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content:center;
+}
+
+img {
+    flex: 1;
+    max-width: 95%;
+    height: auto;
+    margin: 15px 0px;
+    border: 5px solid black;
+    opacity: 0.7;
+}
+
+img:hover {
+    opacity: 1.0;
+    max-width: 100%;
+}
+
+figcaption {
+    font-size: 16px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+li {
+    flex: 100%;
+    margin: auto;
+    padding: 10px 50px;
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+li:hover {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0.8px 0.8px 6px lightgoldenrodyellow;
+}
+
+li b {
+    color: rgb(13, 102, 90);
+}
